@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIG5性格診断</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>BIG5性格診断テスト</h1>
+
+<!-- 外向性の質問 -->
+<section>
+    <h2>外向性（Extraversion）</h2>
+    <div class="slider-container">
+        <p>1. 人と会うと、気分が高まることが多い。</p>
+        <input type="range" min="1" max="5" value="3" class="slider" id="extroversion1">
+    </div>
+    <div class="slider-container">
+        <p>2. パーティーや大勢の集まりに行くのが好きだ。</p>
+        <input type="range" min="1" max="5" value="3" class="slider" id="extroversion2">
+    </div>
+    <div class="slider-container">
+        <p>3. 自分から積極的に会話を始めることが多い。</p>
+        <input type="range" min="1" max="5" value="3" class="slider" id="extroversion3">
+    </div>
+    <div class="slider-container">
+        <p>4. 外での活動よりも、家で静かに過ごすほうが好きだ。（逆スコア）</p>
+        <input type="range" min="1" max="5" value="3" class="slider" id="extroversion4">
+    </div>
+    <div class="slider-container">
+        <p>5. 人前で話すことに特に抵抗を感じない。</p>
+        <input type="range" min="1" max="5" value="3" class="slider" id="extroversion5">
+    </div>
+</section>
+
+<!-- 同じ形式で他の特性のセクションも追加 -->
+<section>
+    <h2>協調性（Agreeableness）</h2>
+    <!-- 質問を同様に設置 -->
+</section>
+<section>
+    <h2>誠実性（Conscientiousness）</h2>
+    <!-- 質問を同様に設置 -->
+</section>
+<section>
+    <h2>情緒不安定性（Neuroticism）</h2>
+    <!-- 質問を同様に設置 -->
+</section>
+<section>
+    <h2>開放性（Openness to Experience）</h2>
+    <!-- 質問を同様に設置 -->
+</section>
+
+<button onclick="calculateScores()">結果を表示</button>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
